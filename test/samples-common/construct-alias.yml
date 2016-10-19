@@ -1,0 +1,12 @@
+---
+alias:
+  value: &VALUE 1
+  sequence: &SEQUENCE
+    - 1
+  map: &MAP
+    key: 1
+
+anchor:
+  value: *VALUE
+  sequence: *SEQUENCE
+  map: *MAP
